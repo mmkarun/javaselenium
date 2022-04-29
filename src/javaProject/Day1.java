@@ -1,16 +1,24 @@
 package javaProject;
 
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 
 public class Day1 {
 
+	 public void add() {
+
+		 int a=100;
+		 int b= 150;
+		 int c=a+b;
+		 
+	}
+	
+	  String jk ="java selnium course";
+
 	public static void main(String[] args) {
 
-      Map<Integer,String> m =new LinkedHashMap();
+      Map<Integer,String> m =new LinkedHashMap<>();
 		 
 		 m.put(99, "sachin");
 		 m.put(100, "ganguly");
@@ -32,9 +40,10 @@ public class Day1 {
 
         System.out.println(entrySet); 
 
+      
+        Day1 add =new Day1();
 
-
-
+        System.out.println(add);
 
 
 
